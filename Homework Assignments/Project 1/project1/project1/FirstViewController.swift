@@ -29,17 +29,19 @@ class FirstViewController: UIViewController, UINavigationControllerDelegate, CLL
         locationManager.distanceFilter = 40
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         
-        let myHouse = CLLocationCoordinate2D(latitude: 37.24, longitude: -115.811111)
+        let myHouse = CLLocationCoordinate2D(latitude: 40.689247, longitude: -74.044502)
         let geofenceRegion = CLCircularRegion(center: myHouse, radius: (100.0*1000.0), identifier: "Area51")
         locationManager.startMonitoring(for: geofenceRegion)
     }
     
     func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion){
-        print("Entered Area 51!")
+        let alertController = UIAlertController(title: "Alert!", message: "You have reached the Statue of Liberty!", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+        self.present(alertController, animated: true, completion: nil)
     }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let currentLocation = locations.first{
-            let mapRegion = MKCoordinateRegion(center: currentLocation.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001))
+            let mapRegion = MKCoordinateRegion(center: currentLocation.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             
             mapView.setRegion(mapRegion, animated: true)
         }
