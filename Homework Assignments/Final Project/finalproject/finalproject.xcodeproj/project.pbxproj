@@ -24,6 +24,7 @@
 		23CDACA52585F9B800896065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CDACA42585F9B800896065 /* Assets.xcassets */; };
 		23CDACA82585F9B800896065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CDACA62585F9B800896065 /* LaunchScreen.storyboard */; };
 		23D0BE6F2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */; };
+		23D733DD25875D7300E43117 /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D733DC25875D7300E43117 /* UpgradeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		23CDACA72585F9B800896065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23CDACA92585F9B800896065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3; path = ../../../../../../Downloads/zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3; sourceTree = "<group>"; };
+		23D733DC25875D7300E43117 /* UpgradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */,
+				23D733DC25875D7300E43117 /* UpgradeViewController.swift */,
 				23CDAC982585F9B700896065 /* AppDelegate.swift */,
 				23CDAC9A2585F9B700896065 /* SceneDelegate.swift */,
 				23CDAC9C2585F9B700896065 /* ViewController.swift */,
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CDAC9D2585F9B700896065 /* ViewController.swift in Sources */,
+				23D733DD25875D7300E43117 /* UpgradeViewController.swift in Sources */,
 				23CDAC992585F9B700896065 /* AppDelegate.swift in Sources */,
 				23CDACA32585F9B700896065 /* finalproject.xcdatamodeld in Sources */,
 				23CDAC9B2585F9B700896065 /* SceneDelegate.swift in Sources */,

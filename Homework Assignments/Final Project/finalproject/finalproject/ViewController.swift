@@ -12,7 +12,7 @@ import CoreData
 
 class ViewController: UIViewController {
     
-    var counter = 0
+    var counter: Int = 0
     var numTriangle = 0
     var numCircle = 0
     var numSquare = 0
@@ -67,6 +67,20 @@ class ViewController: UIViewController {
     @objc func Action() {
         counter += (numTriangle + numCircle + numSquare)
     }
-
+    
+    @IBAction func shapeStoreButton(_ sender: Any) {
+       performSegue(withIdentifier: "name", sender: self)
+        
+    }
+    @IBAction func upgradeButton(_ sender: Any) {
+        performSegue(withIdentifier: "upgrade", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is ShapeStoreViewController {
+            var vc = segue.destination as! ShapeStoreViewController
+            vc.score = counter
+        }
+    }
+    
 }
 

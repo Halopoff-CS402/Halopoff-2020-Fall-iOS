@@ -9,12 +9,15 @@
 import UIKit
 
 class ShapeStoreViewController: UIViewController {
+    
+    var score: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        scoreLabel.text = String(score)
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var scoreLabel: UILabel!
     @IBAction func squareBuy(_ sender: Any) {
         
     }
