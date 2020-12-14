@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2399F4D5258794F000EB5599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4D4258794F000EB5599 /* Assets.xcassets */; };
+		2399F4D72587951A00EB5599 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4D62587951A00EB5599 /* splashscreen.png */; };
 		23B88D8D2586F00C0005DFA4 /* ShapeStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */; };
 		23B88D962586FCBB0005DFA4 /* Cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D8E2586FCBA0005DFA4 /* Cube.png */; };
 		23B88D972586FCBB0005DFA4 /* prism.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D8F2586FCBA0005DFA4 /* prism.png */; };
@@ -21,13 +23,14 @@
 		23CDAC9D2585F9B700896065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDAC9C2585F9B700896065 /* ViewController.swift */; };
 		23CDACA02585F9B700896065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CDAC9E2585F9B700896065 /* Main.storyboard */; };
 		23CDACA32585F9B700896065 /* finalproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23CDACA12585F9B700896065 /* finalproject.xcdatamodeld */; };
-		23CDACA52585F9B800896065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CDACA42585F9B800896065 /* Assets.xcassets */; };
 		23CDACA82585F9B800896065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CDACA62585F9B800896065 /* LaunchScreen.storyboard */; };
 		23D0BE6F2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */; };
 		23D733DD25875D7300E43117 /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D733DC25875D7300E43117 /* UpgradeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2399F4D4258794F000EB5599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		2399F4D62587951A00EB5599 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashscreen.png; path = ../../../../../../Downloads/splashscreen.png; sourceTree = "<group>"; };
 		23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStoreViewController.swift; sourceTree = "<group>"; };
 		23B88D8E2586FCBA0005DFA4 /* Cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cube.png; path = ../../../../../../Downloads/shapes/Cube.png; sourceTree = "<group>"; };
 		23B88D8F2586FCBA0005DFA4 /* prism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prism.png; path = ../../../../../../Downloads/shapes/prism.png; sourceTree = "<group>"; };
@@ -43,7 +46,6 @@
 		23CDAC9C2585F9B700896065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23CDAC9F2585F9B700896065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23CDACA22585F9B700896065 /* finalproject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalproject.xcdatamodel; sourceTree = "<group>"; };
-		23CDACA42585F9B800896065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23CDACA72585F9B800896065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23CDACA92585F9B800896065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3; path = ../../../../../../Downloads/zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				23B88D952586FCBB0005DFA4 /* pyramid.png */,
 				23B88D942586FCBB0005DFA4 /* trapezoid.png */,
 				23B88D922586FCBA0005DFA4 /* triangle.png */,
+				2399F4D62587951A00EB5599 /* splashscreen.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +98,7 @@
 				23CDAC9A2585F9B700896065 /* SceneDelegate.swift */,
 				23CDAC9C2585F9B700896065 /* ViewController.swift */,
 				23CDAC9E2585F9B700896065 /* Main.storyboard */,
-				23CDACA42585F9B800896065 /* Assets.xcassets */,
+				2399F4D4258794F000EB5599 /* Assets.xcassets */,
 				23CDACA62585F9B800896065 /* LaunchScreen.storyboard */,
 				23CDACA92585F9B800896065 /* Info.plist */,
 				23CDACA12585F9B700896065 /* finalproject.xcdatamodeld */,
@@ -163,13 +166,14 @@
 			files = (
 				23B88D9D2586FCBB0005DFA4 /* pyramid.png in Resources */,
 				23CDACA82585F9B800896065 /* LaunchScreen.storyboard in Resources */,
-				23CDACA52585F9B800896065 /* Assets.xcassets in Resources */,
 				23B88D962586FCBB0005DFA4 /* Cube.png in Resources */,
 				23B88D992586FCBB0005DFA4 /* gem.png in Resources */,
 				23B88D9A2586FCBB0005DFA4 /* triangle.png in Resources */,
+				2399F4D5258794F000EB5599 /* Assets.xcassets in Resources */,
 				23CDACA02585F9B700896065 /* Main.storyboard in Resources */,
 				23B88D9C2586FCBB0005DFA4 /* trapezoid.png in Resources */,
 				23D0BE6F2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 in Resources */,
+				2399F4D72587951A00EB5599 /* splashscreen.png in Resources */,
 				23B88D972586FCBB0005DFA4 /* prism.png in Resources */,
 				23B88D982586FCBB0005DFA4 /* geoid.png in Resources */,
 				23B88D9B2586FCBB0005DFA4 /* powerstone.png in Resources */,

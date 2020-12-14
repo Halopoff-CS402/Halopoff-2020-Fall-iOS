@@ -17,8 +17,12 @@ class UpgradeViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func music1Play(_ sender: Any) {
+    }
     
 
+    @IBAction func music2Play(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
