@@ -90,7 +90,7 @@ class ViewController: UIViewController {
         
     }
     @objc func Action() {
-        counter += (numTriangle + numCube + numGem)
+        counter += (numCube + numGem + numGeoid + numPowerstone + numPrism + numPyramid + numTrapezoid + numTriangle)
         counterLabel.text = "Points: \(counter)"
         pointsPerSecondLabel.text = "Points per second: \(numCube + numGem + numGeoid + numPowerstone + numPrism + numPyramid + numTrapezoid + numTriangle)"
     }

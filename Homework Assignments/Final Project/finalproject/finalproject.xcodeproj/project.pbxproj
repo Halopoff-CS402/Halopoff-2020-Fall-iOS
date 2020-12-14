@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2399F4D5258794F000EB5599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4D4258794F000EB5599 /* Assets.xcassets */; };
 		2399F4D72587951A00EB5599 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4D62587951A00EB5599 /* splashscreen.png */; };
+		2399F4D9258796C200EB5599 /* game_sound_swell_collect_bonus_item.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4D8258796C200EB5599 /* game_sound_swell_collect_bonus_item.mp3 */; };
+		2399F4DB258796CE00EB5599 /* star_gazing_119.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4DA258796CE00EB5599 /* star_gazing_119.mp3 */; };
+		2399F4DD258796D500EB5599 /* milky_way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4DC258796D500EB5599 /* milky_way.mp3 */; };
 		23B88D8D2586F00C0005DFA4 /* ShapeStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */; };
 		23B88D962586FCBB0005DFA4 /* Cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D8E2586FCBA0005DFA4 /* Cube.png */; };
 		23B88D972586FCBB0005DFA4 /* prism.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D8F2586FCBA0005DFA4 /* prism.png */; };
@@ -31,6 +34,9 @@
 /* Begin PBXFileReference section */
 		2399F4D4258794F000EB5599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		2399F4D62587951A00EB5599 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashscreen.png; path = ../../../../../../Downloads/splashscreen.png; sourceTree = "<group>"; };
+		2399F4D8258796C200EB5599 /* game_sound_swell_collect_bonus_item.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = game_sound_swell_collect_bonus_item.mp3; path = ../../../../../../Downloads/game_sound_swell_collect_bonus_item.mp3; sourceTree = "<group>"; };
+		2399F4DA258796CE00EB5599 /* star_gazing_119.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = star_gazing_119.mp3; path = ../../../../../../Downloads/star_gazing_119.mp3; sourceTree = "<group>"; };
+		2399F4DC258796D500EB5599 /* milky_way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = milky_way.mp3; path = ../../../../../../Downloads/milky_way.mp3; sourceTree = "<group>"; };
 		23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStoreViewController.swift; sourceTree = "<group>"; };
 		23B88D8E2586FCBA0005DFA4 /* Cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cube.png; path = ../../../../../../Downloads/shapes/Cube.png; sourceTree = "<group>"; };
 		23B88D8F2586FCBA0005DFA4 /* prism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prism.png; path = ../../../../../../Downloads/shapes/prism.png; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 				23B88D942586FCBB0005DFA4 /* trapezoid.png */,
 				23B88D922586FCBA0005DFA4 /* triangle.png */,
 				2399F4D62587951A00EB5599 /* splashscreen.png */,
+				2399F4D8258796C200EB5599 /* game_sound_swell_collect_bonus_item.mp3 */,
+				2399F4DA258796CE00EB5599 /* star_gazing_119.mp3 */,
+				2399F4DC258796D500EB5599 /* milky_way.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,9 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B88D9D2586FCBB0005DFA4 /* pyramid.png in Resources */,
+				2399F4DD258796D500EB5599 /* milky_way.mp3 in Resources */,
 				23CDACA82585F9B800896065 /* LaunchScreen.storyboard in Resources */,
 				23B88D962586FCBB0005DFA4 /* Cube.png in Resources */,
+				2399F4DB258796CE00EB5599 /* star_gazing_119.mp3 in Resources */,
 				23B88D992586FCBB0005DFA4 /* gem.png in Resources */,
+				2399F4D9258796C200EB5599 /* game_sound_swell_collect_bonus_item.mp3 in Resources */,
 				23B88D9A2586FCBB0005DFA4 /* triangle.png in Resources */,
 				2399F4D5258794F000EB5599 /* Assets.xcassets in Resources */,
 				23CDACA02585F9B700896065 /* Main.storyboard in Resources */,
