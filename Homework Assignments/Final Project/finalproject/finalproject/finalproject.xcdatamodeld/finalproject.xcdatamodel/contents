@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19H15" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Player" representedClassName="Player" syncable="YES" codeGenerationType="class">
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="user" optional="YES" attributeType="String"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shapes" inverseName="relationship" inverseEntity="Shapes"/>
+    </entity>
+    <entity name="Shapes" representedClassName="Shapes" syncable="YES" codeGenerationType="class">
+        <attribute name="numCube" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="numGem" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="numGeoid" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="numPowerstone" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="numPrism" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="numPyramid" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="numTrapezoid" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="numTriangle" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Player" inverseName="relationship" inverseEntity="Player"/>
+    </entity>
+    <elements>
+        <element name="Player" positionX="-348.4765625" positionY="122.53125" width="128" height="88"/>
+        <element name="Shapes" positionX="-54" positionY="9" width="128" height="178"/>
+    </elements>
 </model>

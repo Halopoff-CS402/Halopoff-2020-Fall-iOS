@@ -8,9 +8,10 @@
 
 import UIKit
 import AVFoundation
+import CoreData
 
 class ViewController: UIViewController {
-
+    
     var counter = 0
     var numTriangle = 0
     var numCircle = 0
@@ -18,8 +19,7 @@ class ViewController: UIViewController {
     var pointTimer = Timer()
     var TimerDisplayed = 0
     var tapSoundEffect: AVAudioPlayer?
-    
-    
+    var results:[Player] = []
     
     @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var pointsPerClickLabel: UILabel!
@@ -35,6 +35,17 @@ class ViewController: UIViewController {
         catch {
             //couldn't load
         }
+        let fetchRequest:NSFetchRequest = Player.fetchRequest()
+
+        do{
+           results = try (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext.fetch(fetchRequest) as! [Player]
+            for res in results {
+                counter = Int(res.score)
+            }
+        }
+        catch{
+            print("error!")
+        }
     }
     
     
@@ -42,6 +53,15 @@ class ViewController: UIViewController {
         tapSoundEffect?.play() 
         counter += 1
         counterLabel.text = "Points: \(counter)"
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {return}
+        let managedObjectContext = appDelegate.persistentContainer.viewContext
+        let user = Player(context: managedObjectContext)
+        user.score = Int16(counter)
+        do {
+            try managedObjectContext.save()
+        } catch let error as NSError {
+            print("Could not save. \(error),\(error.userInfo)")
+        }
         
     }
     @objc func Action() {

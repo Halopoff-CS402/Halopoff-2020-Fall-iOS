@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B88D8D2586F00C0005DFA4 /* ShapeStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */; };
+		23B88D962586FCBB0005DFA4 /* Cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D8E2586FCBA0005DFA4 /* Cube.png */; };
+		23B88D972586FCBB0005DFA4 /* prism.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D8F2586FCBA0005DFA4 /* prism.png */; };
+		23B88D982586FCBB0005DFA4 /* geoid.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D902586FCBA0005DFA4 /* geoid.png */; };
+		23B88D992586FCBB0005DFA4 /* gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D912586FCBA0005DFA4 /* gem.png */; };
+		23B88D9A2586FCBB0005DFA4 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D922586FCBA0005DFA4 /* triangle.png */; };
+		23B88D9B2586FCBB0005DFA4 /* powerstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D932586FCBA0005DFA4 /* powerstone.png */; };
+		23B88D9C2586FCBB0005DFA4 /* trapezoid.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D942586FCBB0005DFA4 /* trapezoid.png */; };
+		23B88D9D2586FCBB0005DFA4 /* pyramid.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B88D952586FCBB0005DFA4 /* pyramid.png */; };
 		23CDAC992585F9B700896065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDAC982585F9B700896065 /* AppDelegate.swift */; };
 		23CDAC9B2585F9B700896065 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDAC9A2585F9B700896065 /* SceneDelegate.swift */; };
 		23CDAC9D2585F9B700896065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDAC9C2585F9B700896065 /* ViewController.swift */; };
@@ -18,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStoreViewController.swift; sourceTree = "<group>"; };
+		23B88D8E2586FCBA0005DFA4 /* Cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cube.png; path = ../../../../../../Downloads/shapes/Cube.png; sourceTree = "<group>"; };
+		23B88D8F2586FCBA0005DFA4 /* prism.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prism.png; path = ../../../../../../Downloads/shapes/prism.png; sourceTree = "<group>"; };
+		23B88D902586FCBA0005DFA4 /* geoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geoid.png; path = ../../../../../../Downloads/shapes/geoid.png; sourceTree = "<group>"; };
+		23B88D912586FCBA0005DFA4 /* gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gem.png; path = ../../../../../../Downloads/shapes/gem.png; sourceTree = "<group>"; };
+		23B88D922586FCBA0005DFA4 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle.png; path = ../../../../../../Downloads/shapes/triangle.png; sourceTree = "<group>"; };
+		23B88D932586FCBA0005DFA4 /* powerstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = powerstone.png; path = ../../../../../../Downloads/shapes/powerstone.png; sourceTree = "<group>"; };
+		23B88D942586FCBB0005DFA4 /* trapezoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trapezoid.png; path = ../../../../../../Downloads/shapes/trapezoid.png; sourceTree = "<group>"; };
+		23B88D952586FCBB0005DFA4 /* pyramid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pyramid.png; path = ../../../../../../Downloads/shapes/pyramid.png; sourceTree = "<group>"; };
 		23CDAC952585F9B700896065 /* finalproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CDAC982585F9B700896065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23CDAC9A2585F9B700896065 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +65,14 @@
 				23CDAC972585F9B700896065 /* finalproject */,
 				23CDAC962585F9B700896065 /* Products */,
 				23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */,
+				23B88D8E2586FCBA0005DFA4 /* Cube.png */,
+				23B88D912586FCBA0005DFA4 /* gem.png */,
+				23B88D902586FCBA0005DFA4 /* geoid.png */,
+				23B88D932586FCBA0005DFA4 /* powerstone.png */,
+				23B88D8F2586FCBA0005DFA4 /* prism.png */,
+				23B88D952586FCBB0005DFA4 /* pyramid.png */,
+				23B88D942586FCBB0005DFA4 /* trapezoid.png */,
+				23B88D922586FCBA0005DFA4 /* triangle.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +87,7 @@
 		23CDAC972585F9B700896065 /* finalproject */ = {
 			isa = PBXGroup;
 			children = (
+				23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */,
 				23CDAC982585F9B700896065 /* AppDelegate.swift */,
 				23CDAC9A2585F9B700896065 /* SceneDelegate.swift */,
 				23CDAC9C2585F9B700896065 /* ViewController.swift */,
@@ -131,10 +158,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B88D9D2586FCBB0005DFA4 /* pyramid.png in Resources */,
 				23CDACA82585F9B800896065 /* LaunchScreen.storyboard in Resources */,
 				23CDACA52585F9B800896065 /* Assets.xcassets in Resources */,
+				23B88D962586FCBB0005DFA4 /* Cube.png in Resources */,
+				23B88D992586FCBB0005DFA4 /* gem.png in Resources */,
+				23B88D9A2586FCBB0005DFA4 /* triangle.png in Resources */,
 				23CDACA02585F9B700896065 /* Main.storyboard in Resources */,
+				23B88D9C2586FCBB0005DFA4 /* trapezoid.png in Resources */,
 				23D0BE6F2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 in Resources */,
+				23B88D972586FCBB0005DFA4 /* prism.png in Resources */,
+				23B88D982586FCBB0005DFA4 /* geoid.png in Resources */,
+				23B88D9B2586FCBB0005DFA4 /* powerstone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +184,7 @@
 				23CDAC992585F9B700896065 /* AppDelegate.swift in Sources */,
 				23CDACA32585F9B700896065 /* finalproject.xcdatamodeld in Sources */,
 				23CDAC9B2585F9B700896065 /* SceneDelegate.swift in Sources */,
+				23B88D8D2586F00C0005DFA4 /* ShapeStoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eKh-oR-BOf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Clicker-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Clicker" customClass="ViewController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,15 +39,18 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pab-Qy-wCm">
                                 <rect key="frame" x="20" y="62" width="346" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button" backgroundImage="trapezoid.png">
+                                    <color key="titleColor" red="0.25525134139855965" green="0.92630308255016081" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rcT-5b-RLx"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="PcP-1g-nbm"/>
                     <connections>
                         <outlet property="counterLabel" destination="Qqb-YK-4Rg" id="ExN-8p-SeR"/>
                         <outlet property="pointsPerClickLabel" destination="IgS-Mb-KPx" id="D5B-iH-lz8"/>
@@ -56,9 +59,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128" y="92"/>
+            <point key="canvasLocation" x="-9" y="92"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="VwO-H2-qRK">
             <objects>
                 <viewController id="73P-lE-an9" sceneMemberID="viewController">
@@ -102,45 +105,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ieq-rh-kNA"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ln4-h9-soE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2EM-qs-yRH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="128" y="844"/>
-        </scene>
-        <!--Item 2-->
-        <scene sceneID="nOB-U5-IMO">
-            <objects>
-                <viewController id="3ID-Hn-wmG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="I4s-Kg-QKf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="EUj-bf-5Fr"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="m2T-Qi-rqf"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TLC-5x-skU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-706" y="92"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="WLt-cz-ddM">
-            <objects>
-                <viewController id="C8R-3b-aaF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="20s-tH-8WK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Bvr-aH-Q0y"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="n2m-A2-aio"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8zF-iw-Q24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-706" y="844"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jfL-UW-IDF">
@@ -152,13 +124,111 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="C8R-3b-aaF" kind="relationship" relationship="viewControllers" id="Hsf-Po-Adx"/>
-                        <segue destination="3ID-Hn-wmG" kind="relationship" relationship="viewControllers" id="ROW-AD-lGi"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="6ft-Lm-CFT"/>
+                        <segue destination="73P-lE-an9" kind="relationship" relationship="viewControllers" id="abK-SD-Axf"/>
+                        <segue destination="PrX-Fr-uQE" kind="relationship" relationship="viewControllers" id="5ov-xa-CAp"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Be-Hb-9ZS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1436" y="92"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="oIm-R5-fnq">
+            <objects>
+                <viewController id="PrX-Fr-uQE" customClass="ShapeStoreViewController" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4e-wd-36C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nn-j1-rZs">
+                                <rect key="frame" x="41" y="73" width="161" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Cube.png"/>
+                                <connections>
+                                    <action selector="squareBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="7ez-ir-XQ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u18-vl-L4M">
+                                <rect key="frame" x="202" y="82" width="161" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="triangle.png"/>
+                                <connections>
+                                    <action selector="triangleBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="wV0-Oh-oSO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Rj-fd-bll">
+                                <rect key="frame" x="41" y="208" width="161" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="trapezoid.png"/>
+                                <connections>
+                                    <action selector="trapezoidBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="fxC-65-hYH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36u-np-Kde">
+                                <rect key="frame" x="211" y="213" width="163" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="pyramid.png"/>
+                                <connections>
+                                    <action selector="pyramidBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="h9B-4j-LGT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kf-aK-d0h">
+                                <rect key="frame" x="41" y="377" width="161" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="geoid.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWC-5B-qRv">
+                                <rect key="frame" x="210" y="368" width="161" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="prism.png"/>
+                                <connections>
+                                    <action selector="prismBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="GAc-a8-s5Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcU-dl-y0S">
+                                <rect key="frame" x="211" y="549" width="163" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="powerstone.png"/>
+                                <connections>
+                                    <action selector="powerStoneBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="yu5-x2-JoC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6by-Qo-G5y">
+                                <rect key="frame" x="42" y="564" width="161" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="gem.png"/>
+                                <connections>
+                                    <action selector="gemBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="eEe-31-RQs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AQ-dz-nU2">
+                                <rect key="frame" x="41" y="377" width="161" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="geoid.png"/>
+                                <connections>
+                                    <action selector="geoidBuy:" destination="PrX-Fr-uQE" eventType="touchUpInside" id="rJl-RB-fnz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Ctz-Su-yDK"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="3ui-gy-2EQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bCf-5B-66o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1159.4202898550725" y="812.94642857142856"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Cube.png" width="282" height="251"/>
+        <image name="gem.png" width="251" height="300"/>
+        <image name="geoid.png" width="266" height="218"/>
+        <image name="powerstone.png" width="250" height="390"/>
+        <image name="prism.png" width="184" height="318"/>
+        <image name="pyramid.png" width="299" height="261"/>
+        <image name="trapezoid.png" width="221" height="350"/>
+        <image name="triangle.png" width="220" height="253"/>
+    </resources>
 </document>
