@@ -14,6 +14,7 @@
 		23CDACA32585F9B700896065 /* finalproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23CDACA12585F9B700896065 /* finalproject.xcdatamodeld */; };
 		23CDACA52585F9B800896065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CDACA42585F9B800896065 /* Assets.xcassets */; };
 		23CDACA82585F9B800896065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CDACA62585F9B800896065 /* LaunchScreen.storyboard */; };
+		23D0BE6F2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		23CDACA42585F9B800896065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23CDACA72585F9B800896065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23CDACA92585F9B800896065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3; path = ../../../../../../Downloads/zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			children = (
 				23CDAC972585F9B700896065 /* finalproject */,
 				23CDAC962585F9B700896065 /* Products */,
+				23D0BE6E2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +134,7 @@
 				23CDACA82585F9B800896065 /* LaunchScreen.storyboard in Resources */,
 				23CDACA52585F9B800896065 /* Assets.xcassets in Resources */,
 				23CDACA02585F9B700896065 /* Main.storyboard in Resources */,
+				23D0BE6F2586E1A2001E5843 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
