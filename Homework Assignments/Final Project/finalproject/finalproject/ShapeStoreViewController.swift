@@ -26,7 +26,7 @@ class ShapeStoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         scoreLabel.text = "Score: \(String(score))"
-        let sound = Bundle.main.path(forResource: "zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162", ofType: "mp3")
+        let sound = Bundle.main.path(forResource: "game_sound_swell_collect_bonus_item", ofType: "mp3")
         do {
             tapSoundEffect = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
         }
