@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2399F4D5258794F000EB5599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4D4258794F000EB5599 /* Assets.xcassets */; };
 		2399F4DF258836A900EB5599 /* milky_way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4DE258836A900EB5599 /* milky_way.mp3 */; };
 		2399F4E1258836C400EB5599 /* game_sound_swell_collect_bonus_item.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4E0258836C400EB5599 /* game_sound_swell_collect_bonus_item.mp3 */; };
 		2399F4E3258836CD00EB5599 /* star_gazing_119.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4E2258836CD00EB5599 /* star_gazing_119.mp3 */; };
@@ -21,6 +20,7 @@
 		2399F4F32588374D00EB5599 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4F22588374D00EB5599 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */; };
 		2399F4F52588376600EB5599 /* Cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4F42588376500EB5599 /* Cube.png */; };
 		2399F4F72588376E00EB5599 /* gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4F62588376E00EB5599 /* gem.png */; };
+		2399F4FB25883A4300EB5599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2399F4FA25883A4300EB5599 /* Assets.xcassets */; };
 		23B88D8D2586F00C0005DFA4 /* ShapeStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */; };
 		23CDAC992585F9B700896065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDAC982585F9B700896065 /* AppDelegate.swift */; };
 		23CDAC9B2585F9B700896065 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDAC9A2585F9B700896065 /* SceneDelegate.swift */; };
@@ -32,7 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2399F4D4258794F000EB5599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		2399F4DE258836A900EB5599 /* milky_way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = milky_way.mp3; sourceTree = "<group>"; };
 		2399F4E0258836C400EB5599 /* game_sound_swell_collect_bonus_item.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_sound_swell_collect_bonus_item.mp3; sourceTree = "<group>"; };
 		2399F4E2258836CD00EB5599 /* star_gazing_119.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = star_gazing_119.mp3; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		2399F4F22588374D00EB5599 /* zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zapsplat_multimedia_game_tone_short_bright_futuristic_beep_with_delay_action_tone_001_59162.mp3; sourceTree = "<group>"; };
 		2399F4F42588376500EB5599 /* Cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cube.png; sourceTree = "<group>"; };
 		2399F4F62588376E00EB5599 /* gem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem.png; sourceTree = "<group>"; };
+		2399F4FA25883A4300EB5599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B88D8C2586F00C0005DFA4 /* ShapeStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStoreViewController.swift; sourceTree = "<group>"; };
 		23CDAC952585F9B700896065 /* finalproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CDAC982585F9B700896065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 				23CDAC9A2585F9B700896065 /* SceneDelegate.swift */,
 				23CDAC9C2585F9B700896065 /* ViewController.swift */,
 				23CDAC9E2585F9B700896065 /* Main.storyboard */,
-				2399F4D4258794F000EB5599 /* Assets.xcassets */,
+				2399F4FA25883A4300EB5599 /* Assets.xcassets */,
 				23CDACA62585F9B800896065 /* LaunchScreen.storyboard */,
 				23CDACA92585F9B800896065 /* Info.plist */,
 				23CDACA12585F9B700896065 /* finalproject.xcdatamodeld */,
@@ -187,7 +187,7 @@
 				2399F4DF258836A900EB5599 /* milky_way.mp3 in Resources */,
 				2399F4E7258836EA00EB5599 /* triangle.png in Resources */,
 				2399F4F52588376600EB5599 /* Cube.png in Resources */,
-				2399F4D5258794F000EB5599 /* Assets.xcassets in Resources */,
+				2399F4FB25883A4300EB5599 /* Assets.xcassets in Resources */,
 				23CDACA02585F9B700896065 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
