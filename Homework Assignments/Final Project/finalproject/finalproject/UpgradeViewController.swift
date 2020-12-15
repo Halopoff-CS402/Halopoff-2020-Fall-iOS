@@ -37,11 +37,15 @@ class UpgradeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func music1Play(_ sender: Any) {
+        tapSoundEffect2?.stop()
+        tapSoundEffect1?.stop()
         tapSoundEffect1?.play()
     }
     
 
     @IBAction func music2Play(_ sender: Any) {
+        tapSoundEffect1?.stop()
+        tapSoundEffect2?.stop()
         tapSoundEffect2?.play()
     }
     /*
